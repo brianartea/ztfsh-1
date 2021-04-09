@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   const name = "Brian";
@@ -15,12 +16,8 @@ function App() {
 
   return (
     <div className="app">
-      {getGreeting()}
-      <h1>I am the App.js with JSX</h1>
-      <h2>You are a {isMale ? "Male" : "Female"}</h2>
-      <h3 className="subtitle">
-        Hello {name}, hope you are having a good day.
-      </h3>
+      <Header />
+      <h1 className="app__title">This is a title</h1>
     </div>
   );
 }
