@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0);
 
   const increment = () => {
@@ -19,6 +19,6 @@ function App() {
       <button onClick={increment}>+</button>
     </div>
   );
-}
+};
 
 export default App;
