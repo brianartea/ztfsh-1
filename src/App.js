@@ -1,24 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
+import Product from "./Product";
 
-const App = () => {
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1); // CORRECT
-  };
-
-  const decrement = () => {
-    setCount(count - 1); // CORRECT
-  };
-
+function App() {
   return (
     <div>
-      <h3>Counter app</h3>
-      <p>The count is: {count}</p>
-      <button onClick={decrement}>-</button>
-      <button onClick={increment}>+</button>
+      <h1>App Component</h1>
+      <hr />
+      <Product
+        name="Amazon Echo"
+        description="Your AI assistant"
+        price={59.99}
+      />
     </div>
   );
-};
+}
 
 export default App;
