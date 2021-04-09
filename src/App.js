@@ -1,13 +1,9 @@
-import "./App.css";
-import Header from "./Header";
+import React from "react";
 
-//Functional Component
 function App() {
   return (
-    //Bem naming convention = Block Element Modifier
-    <div className="app">
-      <Header />
-      <h1 className="app__title">This is a title</h1>
+    <div>
+      <h1>Refactored Class component to a Functional component</h1>
     </div>
   );
 }
