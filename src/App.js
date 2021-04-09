@@ -1,20 +1,10 @@
 import "./App.css";
 import Header from "./Header";
 
+//Functional Component
 function App() {
-  const name = "Brian";
-  const isMale = true;
-
-  function getGreeting(user) {
-    if (user) {
-      return <h1>Hello, {user}!</h1>;
-    }
-    return <h1>Hello, Stranger</h1>;
-  }
-
-  //Bem = Block Element Modifier
-
   return (
+    //Bem naming convention = Block Element Modifier
     <div className="app">
       <Header />
       <h1 className="app__title">This is a title</h1>
