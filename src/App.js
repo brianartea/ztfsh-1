@@ -23,7 +23,7 @@ function App() {
       <Product
         comp="Product 3"
         name="Test Product"
-        description="Te3st description"
+        description="Test description"
         price={1100.99}
       />
     </div>
