@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState("");
 
   const addTodo = (e) => {
-    e.preventDefault(); //PREVENTS A PAGE REFRESH
+    e.preventDefault(); //PREVENTS PAGE REFRESH
     setTodos([input, ...todos]);
 
     setInput("");
