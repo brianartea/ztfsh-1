@@ -1,4 +1,6 @@
-# Zero to FullStack Hero //Our First App
+# Zero to FullStack Hero // Our First App
+
+## This is the first module of the PAPA React course
 
 This project was created with [npx create-react-app](https://github.com/facebook/create-react-app).
 
@@ -10,5 +12,5 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
