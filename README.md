@@ -4,6 +4,8 @@ This project was created with [npx create-react-app](https://github.com/facebook
 
 ## Available Scripts
 
+I used yarn, it seems to be more efficient than npm.
+
 In the project directory, you can run:
 
 ### `yarn start`
