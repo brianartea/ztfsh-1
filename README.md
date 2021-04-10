@@ -1,4 +1,4 @@
-# Zero to FullStack Hero // Our First App
+# Zero to FullStack Hero // Our First App Module
 
 ## This is the first module of the PAPA React course
 
