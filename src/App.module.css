@@ -1,11 +1,5 @@
 .heading {
-  font-size: 40px;
-  padding: 5px 20px;
-  margin-left: 15px;
 }
 
 .error {
-  color: var(--error-color);
-  padding: 5px 20px;
-  margin-left: 15px;
 }
