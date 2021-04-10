@@ -1,13 +1,13 @@
 import React from "react";
+import styles from "./Product.module.css";
 import ItemDscription from "./ItemDscription";
 
-function Product({ comp, name, description, price }) {
+function Product({ name, description, price }) {
   return (
-    <div>
-      <h3>This is the Product.js with 3 props from App.js</h3>
-      <h4>{comp}</h4>
+    <div className={styles.product}>
       <ItemDscription name={name} description={description} />
-      <h3>${price}</h3>
+      <h2 className={styles.error}>An error occured</h2>
+      <h3 className={styles.price}>${price}</h3>
     </div>
   );
 }

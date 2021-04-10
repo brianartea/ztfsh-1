@@ -1,11 +1,12 @@
 import React from "react";
 import Product from "./Product";
+import "./App.module.css";
 
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
-      <hr />
+    <div className="app">
+      <h1 className="app__heading">App Component</h1>
+      <h2 className="app__error">An error occured</h2>
       <Product
         comp="Product 1"
         name="Google Home"

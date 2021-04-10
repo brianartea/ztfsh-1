@@ -1,0 +1,10 @@
+.app__heading {
+  padding: 5px 20px;
+  margin-left: 15px;
+}
+
+.app__error {
+  color: green;
+  padding: 5px 20px;
+  margin-left: 15px;
+}
