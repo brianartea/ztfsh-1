@@ -1,10 +1,11 @@
-.app__heading {
+.heading {
+  font-size: 40px;
   padding: 5px 20px;
   margin-left: 15px;
 }
 
-.app__error {
-  color: green;
+.error {
+  color: var(--error-color);
   padding: 5px 20px;
   margin-left: 15px;
 }

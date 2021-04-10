@@ -9,6 +9,6 @@
 }
 
 .error {
-  color: red;
+  color: var(--error-color);
   font-weight: bolder;
 }
