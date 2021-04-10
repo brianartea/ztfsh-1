@@ -1,4 +1,4 @@
-# Zero to FullStack Hero //Our First App
+# Zero to FullStack Hero // Our First App
 
 This project was created with [npx create-react-app](https://github.com/facebook/create-react-app).
 
