@@ -1,6 +1,6 @@
-# Zero to FullStack Hero // Our First App Module
+# Zero to Full Stack Hero // Our First App Module
 
-## This is the first module of the PAPA React course
+## This is the first module of the PAPA React course 🚀
 
 This project was created with [npx create-react-app](https://github.com/facebook/create-react-app).
 
